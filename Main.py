@@ -17,7 +17,7 @@ def button5_click():
     subprocess.run(["python", "C:/Users/DELL/Downloads/Workshop2/GaussianSmoothing.py"])
 
 root = tk.Tk()
-root.title("HE180848_Workshop2")
+root.title("Image Processing")
 
 button1 = tk.Button(root, text="Color Balance", command=button1_click)
 button1.grid(row=0, column=0)
