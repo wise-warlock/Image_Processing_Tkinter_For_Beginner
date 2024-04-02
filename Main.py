@@ -2,19 +2,19 @@ import subprocess
 import tkinter as tk
 
 def button1_click():
-    subprocess.run(["python", "C:/Users/DELL/Downloads/Workshop2/ColorBalance.py"])
+    subprocess.run(["python", "ColorBalance.py"])
 
 def button2_click():
-    subprocess.run(["python", "C:/Users/DELL/Downloads/Workshop2/HistogramEqualization.py"])
+    subprocess.run(["python", "HistogramEqualization.py"])
 
 def button3_click():
-    subprocess.run(["python", "C:/Users/DELL/Downloads/Workshop2/MedianFilter.py"])
+    subprocess.run(["python", "MedianFilter.py"])
 
 def button4_click():
-    subprocess.run(["python", "C:/Users/DELL/Downloads/Workshop2/MeanFilter.py"])
+    subprocess.run(["python", "MeanFilter.py"])
 
 def button5_click():
-    subprocess.run(["python", "C:/Users/DELL/Downloads/Workshop2/GaussianSmoothing.py"])
+    subprocess.run(["python", "GaussianSmoothing.py"])
 
 root = tk.Tk()
 root.title("Image Processing")
